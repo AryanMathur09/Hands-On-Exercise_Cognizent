@@ -1,0 +1,18 @@
+2026-07-28 17:56:01 [TRACE] com.tdd.LoggingExample - TRACE: Application starting up...
+2026-07-28 17:56:01 [DEBUG] com.tdd.LoggingExample - DEBUG: Loading configuration files...
+2026-07-28 17:56:01 [INFO ] com.tdd.LoggingExample - INFO: Application started successfully!
+2026-07-28 17:56:01 [INFO ] com.tdd.LoggingExample - INFO: User Aryan logged in from Kolkata
+2026-07-28 17:56:01 [WARN ] com.tdd.LoggingExample - WARN: Low memory detected - 256MB remaining
+2026-07-28 17:56:01 [WARN ] com.tdd.LoggingExample - WARN: Database connection pool running low!
+2026-07-28 17:56:01 [ERROR] com.tdd.LoggingExample - ERROR: Payment failed for transaction ID: 12345
+2026-07-28 17:56:01 [ERROR] com.tdd.LoggingExample - ERROR: Unable to connect to external API!
+2026-07-28 17:56:01 [ERROR] com.tdd.LoggingExample - ERROR: Arithmetic exception occurred: / by zero
+java.lang.ArithmeticException: / by zero
+	at com.tdd.LoggingExample.main(LoggingExample.java:36)
+2026-07-28 17:56:01 [INFO ] com.tdd.LoggingExample - Processing transaction for Account: 1001
+2026-07-28 17:56:01 [INFO ] com.tdd.LoggingExample - Transaction successful! Account: 1001 Amount: $5000.0
+2026-07-28 17:56:01 [INFO ] com.tdd.LoggingExample - Processing transaction for Account: 1002
+2026-07-28 17:56:01 [WARN ] com.tdd.LoggingExample - WARN: Negative amount -100.0 detected for account 1002
+2026-07-28 17:56:01 [INFO ] com.tdd.LoggingExample - Processing transaction for Account: 1003
+2026-07-28 17:56:01 [WARN ] com.tdd.LoggingExample - WARN: Large transaction 999999.0 detected for account 1003
+2026-07-28 17:56:01 [ERROR] com.tdd.LoggingExample - ERROR: Transaction failed for account 1003: Transaction limit exceeded!
