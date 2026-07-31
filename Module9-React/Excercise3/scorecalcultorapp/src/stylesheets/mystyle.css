@@ -1,0 +1,18 @@
+.container {
+    width: 400px;
+    margin: 30px auto;
+    padding: 20px;
+    border: 2px solid #333;
+    border-radius: 8px;
+    background-color: #f4f4f4;
+    text-align: left;
+}
+
+h2 {
+    color: blue;
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
+}
